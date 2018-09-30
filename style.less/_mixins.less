@@ -1,0 +1,32 @@
+.bg-image(@url) {
+  background-image: @url;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.pictureOverlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.fontLemonMilk {
+  @font-face {
+    font-family: "LemonMilk";
+    src: url("LemonMilk.otf") format("otf");
+  }
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 17px 40px;
+  border-radius: 30px;
+  background-color: @button-primary;
+  border: none;
+  color: white;
+}
