@@ -261,15 +261,15 @@ body {
 
 .who-we-are .squere {
     @media @medium {
-        width: @squere-width;
-        height: @square-height;
-        width: 1000px;
-        height: 1000px;
+        width: 711px;
+        height: 711px;
+        width: 1288px;
+        height: 1111px;
         display: inline-block;
         z-index: -2;
         position: absolute;
-        top: -560px;
-        right: -15.76vw;
+        top: -502px;
+        right: -16.76vw;
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
         background: #171717;
@@ -312,7 +312,7 @@ body {
 //what-we-do
 .what-we-do {
     width: 100%;
-    background-color: pink;
+    background-color: #f5f5f5;
     min-height: 774px;
     display: flex;
     justify-content: center;
@@ -429,7 +429,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #3af597;
+    background: #fff;
     min-height: 729px;
     overflow-x: hidden;
     @media @medium {
@@ -609,7 +609,8 @@ body {
 }
 
 .creative-team .text:nth-of-type(2) p {
-    top: 90%;
+    top: 98%;
+    left: -5%;
 }
 
 .creative-team .text {
@@ -671,6 +672,10 @@ footer {
 .in-touch .row:nth-of-type(1) {
     padding-top: 66px;
     display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 10%;
 }
 
 .in-touch .row:nth-of-type(1) .one-of-three i {
@@ -680,6 +685,7 @@ footer {
     position: absolute;
     left: -50px;
     top: -20px;
+    flex-basis: none;
 }
 
 .in-touch .row:nth-of-type(1) .one-of-three:nth-of-type(1) i {
