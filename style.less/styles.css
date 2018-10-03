@@ -686,14 +686,9 @@ body {
 .creative-team h3 {
   font-size: 2.36rem;
 }
-.our-clients {
-  min-height: 741px;
-}
-.our-clients h2 {
-  font-size: 6.13rem;
-}
-.our-clients p {
-  font-size: 2rem;
+footer {
+  background-image: url("../img/get-in-touch.jpg");
+  background-size: cover;
 }
 .in-touch > h2:first-child {
   text-align: center;
@@ -702,7 +697,6 @@ body {
 }
 footer {
   min-height: 569px;
-  background-color: rgba(26, 25, 25, 0.322);
 }
 .in-touch .row:nth-of-type(1) {
   padding-top: 66px;
@@ -749,7 +743,7 @@ footer {
   content: "";
   display: block;
   width: 171.02%;
-  background-color: #757575;
+  background-color: #05050505;
   height: 2px;
   position: absolute;
   left: 50%;
@@ -767,6 +761,74 @@ footer {
 }
 .in-touch .row:nth-of-type(2) {
   margin-top: 80px;
+}
+.our-clients {
+  min-height: 741px;
+}
+.our-clients h2 {
+  font-size: 6.13rem;
+}
+.our-clients p {
+  font-size: 2rem;
+}
+.our-clients {
+  position: relative;
+}
+.our-clients blockquote {
+  max-width: 450px;
+  position: absolute;
+  top: 10%;
+  right: 30%;
+}
+.our-clients h2 {
+  position: absolute;
+  top: -18.2%;
+  left: 2.722%;
+}
+.our-clients .bigImage {
+  margin-top: 20.796%;
+  width: 205px;
+  height: 205px;
+  overflow: hidden;
+  transform: rotate(-45deg);
+  position: relative;
+  border: 12px solid #fff;
+  -webkit-box-shadow: -4px 2px 32px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 2px 32px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 2px 32px -9px rgba(0, 0, 0, 0.75);
+}
+.our-clients .bigImage img {
+  width: 200%;
+  position: absolute;
+  left: 39%;
+  top: 72%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.our-clients .smallImages img {
+  left: 39%;
+  top: 42%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 200%;
+}
+.our-clients .smallImages img {
+  left: 25%;
+  top: 3%;
+  transform: translate(-20%, -9%) rotate(-45deg);
+  width: 200%;
+}
+.our-clients .smallImages figure {
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  border: 2px solid #fff;
+  -webkit-box-shadow: -4px 2px 32px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 2px 32px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 2px 32px -9px rgba(0, 0, 0, 0.75);
+}
+.our-clients .smallImages {
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width: 1399px) {
   .what-we-do p {
